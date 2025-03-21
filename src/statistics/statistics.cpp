@@ -33,7 +33,7 @@ void read_excel_demo()
     xlnt::workbook wb;
 
     // 加载 Excel 文件  
-    wb.load("../../data/08 - Vision.xlsx");
+    wb.load("../data/08 - Vision.xlsx");
 
     // 获取第一个工作表  
     auto ws = wb.active_sheet();
